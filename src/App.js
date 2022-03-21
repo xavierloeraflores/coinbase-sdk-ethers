@@ -26,7 +26,6 @@ export const provider = new ethers.providers.Web3Provider(ethereum)
 const App = () => {
   const [wallet, setWallet] = useState("")
   const [balance, setBalance] = useState(0.0)
-  const [apeCoinMessage, setApeCoinMessage] = useState("")
 
   const connectWallet = async () => {
     const accounts = await ethereum.enable()
@@ -44,31 +43,6 @@ const App = () => {
     setBalance(ethers.utils.formatEther(walletBalance))
   }
 
-  const addApeCoin = async () => {
-    try {
-      const addedApeCoin = await ethereum.request({
-        method: "wallet_watchAsset",
-        params: {
-          type: "ERC20",
-          options: {
-            address: "0x4d224452801aced8b2f0aebe155379bb5d594381",
-            symbol: "APE",
-            decimals: 18,
-            image:
-              "https://s2.coinmarketcap.com/static/img/coins/64x64/18876.png",
-          },
-        },
-      })
-
-      if (addedApeCoin) {
-        setApeCoinMessage("ApeCoin has been successfully tracked on you wallet")
-      } else {
-        setApeCoinMessage("There was an error adding ApeCoin to your wallet")
-      }
-    } catch (err) {
-      console.log(err)
-    }
-  }
   return (
     <>
       {!wallet ? (
@@ -81,9 +55,7 @@ const App = () => {
           <p>Your Wallet: {wallet}</p>
           <p>Your ETH Balance: {balance}</p>
           <button onClick={() => getBalance()}>Show Balance</button>
-          <button onClick={() => addApeCoin()}>Add ApeCoin To Wallet</button>
           <button onClick={() => disconnectWallet()}>Disconnect Wallet</button>
-          <p>{apeCoinMessage}</p>
         </>
       )}
     </>
