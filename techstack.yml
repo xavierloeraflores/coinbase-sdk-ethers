@@ -1,7 +1,8 @@
 repo_name: xavierloeraflores/coinbase-sdk-ethers
 report_id: 108c2366b8876c3c0f2516421df975c1
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T13:01:43+00:00'
+timestamp: '2024-01-05T08:38:31+00:00'
 requested_by: xavierloeraflores
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers
   detection_source: Repo Metadata
 - name: React
   description: A JavaScript library for building user interfaces
@@ -36,7 +39,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 20:32:46.000000000 Z
@@ -48,6 +51,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers
   detection_source: Repo Metadata
 - name: Webpack
   description: A bundler for javascript and friends
@@ -59,7 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/package-lock.json
   detection_source: webpack.config.js
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 23:17:01.000000000 Z
@@ -71,6 +75,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/package.json
   detection_source: package.json
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 20:32:46.000000000 Z
@@ -80,6 +85,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/public/index.html
   detection_source: public/index.html
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 20:32:46.000000000 Z
@@ -93,7 +99,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 20:32:46.000000000 Z
@@ -108,7 +114,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 20:32:46.000000000 Z
@@ -122,7 +128,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16609/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 23:17:01.000000000 Z
@@ -136,7 +142,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17297/default_3ec53c4dad64de27b72cc81401e898b5aea82f2c.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 23:17:01.000000000 Z
@@ -150,7 +156,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 20:32:46.000000000 Z
@@ -164,7 +170,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 20:32:46.000000000 Z
@@ -178,7 +184,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16507/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/xavierloeraflores/coinbase-sdk-ethers/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: Xavier Loera Flores
   last_updated_on: 2022-03-21 23:17:01.000000000 Z
